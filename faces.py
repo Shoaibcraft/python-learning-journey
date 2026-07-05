@@ -1,8 +1,8 @@
 def convert(text):
   # Replace emoticons with emoji
   # Note: Use the actual emoji characters here
-  text = text.replace(":)", "😁")
-  text = text.replace(":(", "😒")
+  text = text.replace(":)", "🙂")
+  text = text.replace(":(", "🙁")
   return text
 
 def main():
