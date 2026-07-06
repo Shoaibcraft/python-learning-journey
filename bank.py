@@ -4,7 +4,7 @@ def main():
   print(output, end = "")
 
 def greeting(n):
-  n.lower().strip()
+  n = n.lower().strip()
   if n == "hello":
     return "$0"
   elif n == "h":
