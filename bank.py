@@ -5,9 +5,9 @@ def main():
 
 def greeting(n):
   n = n.lower().strip()
-  if n == "hello":
+  if n.startswith("hello"):
     return "$0"
-  elif n == "h":
+  elif n.startswith("h"):
     return "$20"
   else:
     return "$100"
