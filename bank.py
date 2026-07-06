@@ -1,7 +1,7 @@
 def main():
   user_input = input("Howdy? ")
   output = greeting(user_input)
-  print(output)
+  print(output, end = "")
 
 def greeting(n):
   n.lower().strip()
