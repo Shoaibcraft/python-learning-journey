@@ -6,11 +6,11 @@ def main():
 def greeting(n):
   n.lower().strip()
   if n == "hello":
-    return "0"
+    return "$0"
   elif n == "h":
-    return "20"
+    return "$20"
   else:
-    return "100"
+    return "$100"
 
 main()
 
