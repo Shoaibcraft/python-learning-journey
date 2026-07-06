@@ -14,6 +14,6 @@ def main():
 
     # Get result
     result = answer(user_input)
-    print(f"The answer is: {result}")
+    print(result)
 
 main()
